@@ -1,0 +1,21 @@
+{
+  "name": "@haozi/hello-world",
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "moto build",
+    "dev": "moto dev"
+  },
+  "dependencies": {
+    "react": "*"
+  },
+  "devDependencies": {
+    "moto-cli": "*"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npm.alibaba-inc.com"
+  }
+
+}
